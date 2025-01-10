@@ -1,7 +1,13 @@
+import StickyFooter from './components/StickyFooter'
 import TextParallax from './components/TextParallax'
 
-function App() {
-  return <TextParallax />
+const App = () => {
+  return (
+    <>
+      {/* <TextParallax /> */}
+      <StickyFooter />
+    </>
+  )
 }
 
 export default App
