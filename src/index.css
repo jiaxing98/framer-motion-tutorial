@@ -24,6 +24,42 @@
   @apply w-[20vh] h-[25vh] top-[40vh] left-[30vw] z-[3];
 }
 
+.el {
+  @apply absolute flex w-full h-full top-0 items-center justify-center;
+}
+
+.el .imageContainer {
+  @apply relative w-[25vw] h-[25vh];
+}
+
+.el .imageContainer img {
+  @apply object-cover;
+}
+
+.el:nth-of-type(2) .imageContainer {
+  @apply w-[35vw] h-[30vh] top-[-30vh] left-[5vw];
+}
+
+.el:nth-of-type(3) .imageContainer {
+  @apply w-[20vw] h-[45vh] top-[-10vh] left-[-25vw];
+}
+
+.el:nth-of-type(4) .imageContainer {
+  @apply w-[25vw] h-[25vh] left-[27.5vw];
+}
+
+.el:nth-of-type(5) .imageContainer {
+  @apply w-[20vw] h-[25vh] top-[27.5vh] left-[5vw];
+}
+
+.el:nth-of-type(6) .imageContainer {
+  @apply w-[30vw] h-[25vh] top-[27.5vh] left-[-22.5vw];
+}
+
+.el:nth-of-type(7) .imageContainer {
+  @apply w-[15vw] h-[15vh] top-[22.5vh] left-[25vw];
+}
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
