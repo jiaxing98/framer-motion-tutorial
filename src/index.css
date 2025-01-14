@@ -60,6 +60,10 @@
   @apply w-[15vw] h-[15vh] top-[22.5vh] left-[25vw];
 }
 
+.paragraph {
+  @apply flex text-[60px] leading-[1] p-10 max-w-[1280px] text-white flex-wrap;
+}
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;

@@ -3,6 +3,7 @@ import ParallaxScroll from './components/ParallaxScroll'
 import PerspectiveSectionTransition from './components/PerspectiveSectionTransition'
 import StickyFooter from './components/StickyFooter'
 import TextAlongPath from './components/TextAlongPath'
+import TextGradientScroll from './components/TextGradientScroll'
 import TextParallax from './components/TextParallax'
 import ZoomParallax from './components/ZoomParallax'
 
@@ -15,7 +16,8 @@ const App = () => {
       {/* <PerspectiveSectionTransition /> */}
       {/* <TextAlongPath /> */}
       {/* <ParallaxScroll /> */}
-      <ZoomParallax />
+      {/* <ZoomParallax /> */}
+      <TextGradientScroll />
     </>
   )
 }
