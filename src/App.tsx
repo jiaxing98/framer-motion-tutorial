@@ -1,4 +1,5 @@
 import BgImageParallax from './components/BgImageParallax'
+import ParallaxScroll from './components/ParallaxScroll'
 import PerspectiveSectionTransition from './components/PerspectiveSectionTransition'
 import StickyFooter from './components/StickyFooter'
 import TextAlongPath from './components/TextAlongPath'
@@ -11,7 +12,8 @@ const App = () => {
       {/* <StickyFooter /> */}
       {/* <BgImageParallax /> */}
       {/* <PerspectiveSectionTransition /> */}
-      <TextAlongPath />
+      {/* <TextAlongPath /> */}
+      <ParallaxScroll />
     </>
   )
 }
